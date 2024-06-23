@@ -1,5 +1,6 @@
 //implementation of objects and inheritance
 
+//inheritance
 
 class Shape{   //parent or base or super class
     double pi = 3.14;
