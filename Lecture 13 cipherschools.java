@@ -1,6 +1,6 @@
 //Access Modifiers
 
-public class A
+/*public class A
 {
 int x= 10;
 private int y = 15;
@@ -15,11 +15,11 @@ System.out.println(obj.y);
 System.out.println(obj.z);
 System.out.println(obj.w); 
 }
-}
+}*/
 
 
 ///////////////////////////////////////////////////////////////////////
-
+/*
 public class B
 {
 public static void main (String[] args)
@@ -31,10 +31,10 @@ System.out.println(obj.z); //public is accessible everywhere outside the class
 System.out.println(Obj.w); //protected will be visible in different package in subclass using object 
 }
 }
-
+*/
 /////////////////////////////////////////////////////////
 
-
+/*
 public class C extends A{
 public static void main (String[] args)
 {
@@ -46,11 +46,11 @@ System.out.println(obj.z);
 System.out.println(Obj.w); //protected will be visible in different package in subclass using object 
 
 }
-}
+}*/
 
 //////////////////////////////////////////////////////////
 
-
+/*
 public class D
 {
 public static void main (String[] args)
@@ -61,7 +61,7 @@ System.out.println(obj.y);
 System.out.println(obj.z);
 System.out.println(obj.w); //protected will not be accessible outside package in non-subclass
 }
-}
+}*/
 
 //Encapsulation//
 
